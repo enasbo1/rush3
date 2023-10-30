@@ -7,10 +7,10 @@ public class Alter {
     private int pv;
 
     private int soin = 1;
-    private Random rand = new Random();
+    private final Random rand = new Random();
 
     final private ArrayList<String> attack_keys = new ArrayList<>(4);
-    private ArrayList<String> actions = new ArrayList<>(4);
+    private final ArrayList<String> actions = new ArrayList<>(4);
     public Map<String, Integer>  attack_list;
     public String name;
     public double offence;
