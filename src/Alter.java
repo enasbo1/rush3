@@ -6,7 +6,7 @@ import java.util.Random;
 public class Alter {
     private int pv;
 
-    private int soin = 1;
+    private int soin = 1 ;
     private final Random rand = new Random();
 
     final private ArrayList<String> attack_keys = new ArrayList<>(4);
